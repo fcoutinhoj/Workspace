@@ -1,0 +1,30 @@
+package Aula;
+
+public class Caneta {
+	String modelo;
+	String cor;
+	float ponta;
+	int carga;
+	boolean tampada;
+	
+	void status() {
+		System.out.println("Uma caneta modelo " + modelo);
+		System.out.println("da cor " + cor);
+		System.out.println("de ponta " + ponta);
+		System.out.println("está com carga " + carga + "%");
+		System.out.println("está tampada? " + tampada);	
+	}
+	
+	void rabiscar() {
+		
+	}
+	
+	void tampar() {
+		
+	}
+	
+	void destampar() {
+	
+	}
+	
+}

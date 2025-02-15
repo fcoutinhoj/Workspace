@@ -1,0 +1,41 @@
+package Aula;
+
+public class Caneta {
+	String modelo;
+	String cor;
+	float ponta;
+	int carga;
+	boolean tampada;
+	
+	void rabiscar() {
+		if (tampada == false) {
+			System.out.println("Erro. Não posso rabiscar.");
+		}else {
+			System.out.println("Rabiscando.");
+		}
+		System.out.println(" ");
+	}
+	
+	void tampar() {
+		this.tampada = true;
+	}
+	
+	void destampar() {
+		this.tampada = false;
+	}
+	
+	void status() {
+		System.out.println("Uma caneta modelo " + this.modelo);
+		System.out.println("da cor " + this.cor);
+		System.out.println("de ponta " + this.ponta);
+		System.out.println("está com carga " + this.carga + "%");
+		
+		if (tampada == true) {
+			System.out.println("está destampada. ");
+		}else {
+			System.out.println("está tampada.");
+		}		
+	
+	}
+	
+}
