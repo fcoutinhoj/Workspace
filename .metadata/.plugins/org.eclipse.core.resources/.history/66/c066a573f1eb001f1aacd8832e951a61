@@ -1,21 +1,12 @@
 package Aula;
-
-import java.util.Date;
-
 public class Aula {
 	public static void main(String[] args) {
-		
-		Date hora = new Date();		
-		System.out.println(hora);
-		System.out.println(" ");
-		
 		
 		//instanciar objeto.
 		Caneta c1 = new Caneta();
 		Caneta c2 = new Caneta();
 		CF cx1 = new CF(); //CF está maiusculo, pois refere-se à Caixa de Fósforo. 
 		CF cx2 = new CF();
-		
 		
 		//preencher atributos.
 		c1.modelo = "Bic";

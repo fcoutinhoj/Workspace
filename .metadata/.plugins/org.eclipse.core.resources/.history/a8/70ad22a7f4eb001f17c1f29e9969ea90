@@ -5,7 +5,8 @@ import java.util.Date;
 public class Aula {
 	public static void main(String[] args) {
 		
-		Date hora = new Date();		
+		Date hora = new Date();
+		
 		System.out.println(hora);
 		System.out.println(" ");
 		

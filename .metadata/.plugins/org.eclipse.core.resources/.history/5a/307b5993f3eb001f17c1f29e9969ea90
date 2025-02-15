@@ -36,7 +36,7 @@ public class CF {
 		if (aberta == true) {
 			System.out.println("Pode riscar. ");
 		}else {
-			System.out.println("Erro. Está fechada. ");
+			System.out.println("Erro. Está fechada.");
 		}
 		
 	}

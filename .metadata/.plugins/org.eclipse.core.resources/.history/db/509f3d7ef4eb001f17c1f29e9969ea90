@@ -5,8 +5,10 @@ import java.util.Date;
 public class Aula {
 	public static void main(String[] args) {
 		
-		Date hora = new Date();		
-		System.out.println(hora);
+		//Date now = new Date();
+		String data = new String("dd/MM/yyyy");
+		
+		System.out.println(data);
 		System.out.println(" ");
 		
 		
