@@ -41,7 +41,6 @@ public class Aula {
 		
 		//chamada de metodos.
 		c1.destampar();
-		//c1.tampar();
 		c1.status();
 		c1.rabiscar();
 		

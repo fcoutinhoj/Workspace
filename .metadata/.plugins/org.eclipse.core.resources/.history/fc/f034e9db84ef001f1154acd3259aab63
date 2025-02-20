@@ -1,13 +1,13 @@
 package Aula;
 
 public class Caneta {
-	public String modelo;
-	public String cor;
-	private float ponta;
-	protected int carga;
-	private boolean tampada;
+	String modelo;
+	String cor;
+	float ponta;
+	int carga;
+	boolean tampada;
 	
-	public void rabiscar() {
+	void rabiscar() {
 		if (tampada == false) {
 			System.out.println("Erro. Não posso rabiscar.");
 		}else {
@@ -16,11 +16,11 @@ public class Caneta {
 		System.out.println(" ");
 	}
 	
-	protected void tampar() {
+	void tampar() {
 		this.tampada = true;
 	}
 	
-	protected void destampar() {
+	void destampar() {
 		this.tampada = false;
 	}
 	

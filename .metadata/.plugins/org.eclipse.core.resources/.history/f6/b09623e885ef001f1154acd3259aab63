@@ -5,7 +5,7 @@ public class Caneta {
 	public String cor;
 	private float ponta;
 	protected int carga;
-	private boolean tampada;
+	protected boolean tampada;
 	
 	public void rabiscar() {
 		if (tampada == false) {

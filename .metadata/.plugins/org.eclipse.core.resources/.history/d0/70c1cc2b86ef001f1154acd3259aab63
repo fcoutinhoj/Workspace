@@ -40,8 +40,8 @@ public class Aula {
 		cx2.tamanho = "Pequena";
 		
 		//chamada de metodos.
-		c1.destampar();
-		//c1.tampar();
+		//c1.destampar();
+		c1.tampar();
 		c1.status();
 		c1.rabiscar();
 		
