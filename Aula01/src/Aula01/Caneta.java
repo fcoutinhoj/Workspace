@@ -5,7 +5,7 @@ public class Caneta {
 	private Float ponta;
 	private boolean tampada;
 	private String cor;
-
+	
 	//metodo construtor.
 	public Caneta(String modelo , String cor, float ponta){
 		this.setModelo(modelo);
