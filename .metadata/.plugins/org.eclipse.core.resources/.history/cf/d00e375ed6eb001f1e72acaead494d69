@@ -1,6 +1,0 @@
-package Aula;
-public class Estudo {
-	String materia;
-	float tempo;
-	
-}
